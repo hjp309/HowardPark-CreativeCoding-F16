@@ -1,3 +1,7 @@
+//Howard Park
+//Creative Coding
+//Week 1
+//Wall Drawing #17
 function setup(){
 
 }
@@ -11,7 +15,7 @@ function draw(){
 	var rectHeight = (height - (margin*2));
 
 	createCanvas(height, width);
-	background(155);
+	background(255);
 
 	//Rectangle with vertical lines
 	var numVlines = 32;
