@@ -1,3 +1,7 @@
+/**
+* Kevin's comments:  Make sure you call createCanvas inside setup, not draw.
+* Otherwise you will be creating an entirely new canvas each time draw is looped.
+*/
 //Howard Park
 //Creative Coding
 //Week 2
