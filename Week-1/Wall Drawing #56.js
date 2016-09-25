@@ -1,3 +1,7 @@
+/**
+* Kevin's comments: See #17 for more detailed comments about createCanvas and for loop initialization.
+* Otherwise keep up the good work!
+*/
 //Howard Park
 //Creative Coding
 //Week 1
