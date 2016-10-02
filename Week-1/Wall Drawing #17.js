@@ -2,19 +2,19 @@
 //Creative Coding
 //Week 1
 //Wall Drawing #17
-function setup(){
 
+var height = 600;
+var width = 600;
+var rectWidth = (width - (gap*3) -(margin*2))/4;
+var rectHeight = (height - (margin*2));
+
+function setup(){
+	createCanvas(height, width);
 }
 
 function draw(){
-	var height = 600;
-	var width = 600;
 	var gap = 20;
 	var margin = 20;
-	var rectWidth = (width - (gap*3) -(margin*2))/4;
-	var rectHeight = (height - (margin*2));
-
-	createCanvas(height, width);
 	background(255);
 
 	//Rectangle with vertical lines
