@@ -5,9 +5,9 @@
 
 function setup(){
 	createCanvas(500,500);
-
 }
 
+//Global Variable for speed
 var speed = 0;
 
 function draw(){
