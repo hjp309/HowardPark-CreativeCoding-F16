@@ -3,19 +3,16 @@
 //Week 1
 //Wall Drawing #56
 
+height = 600;
+width = 600;
+margin = 20;
+gap = (width - margin*2)/37;
 function setup(){
-
+	createCanvas(height, width);
 }
 
 function draw(){
-	height = 600;
-	width = 600;
-	createCanvas(height, width);
 	background(255);
-	margin = 20;
-	gap = (width - margin*2)/37;
-
-
 	line(margin, margin, width-margin-gap, margin);
 	line(margin, height-margin, width-margin-gap, height-margin);
 	for(rLines = 0; rLines < 37; rLines++){
