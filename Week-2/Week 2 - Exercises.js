@@ -1,13 +1,12 @@
 //Week 2 Exercises
 
 function setup(){
-
+	createCanvas(600,600);
 }
 
 function draw(){
 	var posx = 100;
 	var posy = 50;
-	createCanvas(600,600);
 	background(0);
 
 	//Set var for rect position (x,y)
