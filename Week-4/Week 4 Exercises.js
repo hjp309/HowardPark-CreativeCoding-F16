@@ -1,7 +1,6 @@
 //Howard Park
 //Creative Coding
-//Week 4
-//Exercises
+//Week 4 Exercises
 
 function setup(){
 	createCanvas(windowWidth, windowHeight);
