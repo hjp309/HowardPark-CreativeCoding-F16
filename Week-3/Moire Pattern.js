@@ -1,6 +1,6 @@
 //Howard Park
 //Creative Coding
-//Week 3
+//Week 3 Homework
 //Moire Pattern
 
 function setup(){
