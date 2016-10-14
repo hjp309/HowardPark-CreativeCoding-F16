@@ -1,6 +1,6 @@
 //Howard Park
 //Creative Coding
-//Week 2
+//Week 2 Homework
 //Alfredo Volpi c. 1958 "Composição"
 
 function setup(){
