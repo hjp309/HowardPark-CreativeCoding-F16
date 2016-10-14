@@ -1,6 +1,6 @@
 //Howard Park
 //Creative Coding
-//Week 1
+//Week 1 Homework Part 1
 //Wall Drawing #17
 
 var height = 600;
