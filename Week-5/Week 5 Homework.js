@@ -1,3 +1,11 @@
+/**
+** Kevin's notes: Nicely done!  Great use of a function to create your character.  
+This might be a good sketch to build on for your midterm project.  Don't forget to call background(75); on the first line
+of your draw loop.  This doesn't really affect the functionality of your current sketch, however if you ever plan on adding
+animation to the sketch in the future, you'll want to clear out the background so the shapes appear to animate instead of 
+smearing across the screen.
+*/
+
 //Howard Park
 //Creative Coding
 //Week 5 Homework
