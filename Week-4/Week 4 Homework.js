@@ -15,7 +15,7 @@ function draw(){
 	fill('#990000');
 	rect(0, windowHeight - 100, windowWidth, 100);
 	//typo in your code here:  should remove 'h'
-	fill('#009933');h
+	fill('#009933');
 	rect(0, 0, windowWidth, windowHeight/2);
 	fill('#006600');
 	rect(0, 100, windowWidth, windowHeight/2 - 100);
