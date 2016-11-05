@@ -1,6 +1,7 @@
 //Howard Park
-//Creative Coding
+//Creative Coding - Kevin Siwoff
 //Midterm 
+//11-4-2016
 
 function setup(){
 	createCanvas(windowWidth, windowHeight);
@@ -16,7 +17,6 @@ function setup(){
 }
 
 var mode = 0;
-var colorRange;
 var shapeSize = 50;
 var counter = 0;
 
@@ -47,7 +47,7 @@ function draw(){
 		vertex(mouseX, mouseY - shapeSize);
 		endShape();
 	}
-	counter++;
+	counter++; //Counter to change hue.
 }
 
 function mouseReleased(){ //Switch modes
@@ -55,7 +55,7 @@ function mouseReleased(){ //Switch modes
 	console.log(mode); //Documentation of modes in case of error
 }
 
-function keyPressed(){ //Turn it off
+function keyPressed(){ //Controls
 	if(keyCode === UP_ARROW)
 		shapeSize += 5;
 	else if (keyCode === DOWN_ARROW)
