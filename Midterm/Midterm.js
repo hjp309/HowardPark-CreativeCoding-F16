@@ -22,7 +22,6 @@ var counter = 0;
 
 function draw(){
 	if(mode % 2 == 0 && mode > 0){ //Polk-a-dot On
-		colorRange = random(360);
 		noStroke();
 		for(var timer = 0; timer < 10; timer++){
 			if(counter > 360)
@@ -33,7 +32,6 @@ function draw(){
 	}
 
 	if(mode % 2 != 0){ //Confetti On
-		colorRange = random(360);
 		noStroke();
 		for(var timer = 0; timer < 10; timer++){
 			if(counter > 360)
