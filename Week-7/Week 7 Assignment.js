@@ -18,7 +18,7 @@ function draw(){
 		//var x = sin(i/165*TWO_PI)*500; This creates a very interesting glare effect (picture in folder)
 		var y = sin(i/200*TWO_PI)*300;
 		var colx = x % 360;
-		var sizey = pointCount % 10;
+		var sizey = pointCount % 10; //Makes the circles slowly form
 		fill(colx, 100, 100);
 		ellipse(x, y, sizey, sizey);
 	}
