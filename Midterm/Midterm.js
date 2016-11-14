@@ -1,3 +1,9 @@
+/**
+** Kevin's comments:  Really nice work here!  I especially like the use of mouse and keyboard events to change drawing mode.
+I would love to see you expand on a sketch like this in the future, perhaps incorporating custom brushes beyond the circle and rectangle.
+Consider what shapes you would need to combine in order to replicate brushes as seen in photoshop.  
+Some small code-related comments inline.
+**/
 //Howard Park
 //Creative Coding - Kevin Siwoff
 //Midterm 
@@ -54,6 +60,10 @@ function mouseReleased(){ //Switch modes
 }
 
 function keyPressed(){ //Controls
+	//while technically single line conditionals without brackets will work,
+	//I strongly recommend using curly brackets whenever you use if and else, so that you remove any chance for bugs to slip in.
+	//it may be annoying to write extra curly's but js will basically try to run anything you type, and it's better for you to be 
+	//overly verbose than generate runtime errors.
 	if(keyCode === UP_ARROW)
 		shapeSize += 5;
 	else if (keyCode === DOWN_ARROW)
