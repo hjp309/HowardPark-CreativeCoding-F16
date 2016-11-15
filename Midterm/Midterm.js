@@ -54,12 +54,16 @@ function mouseReleased(){ //Switch modes
 }
 
 function keyPressed(){ //Controls
-	if(keyCode === UP_ARROW)
+	if(keyCode === UP_ARROW){
 		shapeSize += 5;
-	else if (keyCode === DOWN_ARROW)
+	}
+	else if (keyCode === DOWN_ARROW){
 		shapeSize -= 5;
-		if(shapeSize < 0)
+		if(shapeSize < 0){
 			shapeSize = 0;
-	else if (keyCode === ALT)
+		}
+	}
+	else if (keyCode === ALT){
 		mode = 0;
+	}
 }
