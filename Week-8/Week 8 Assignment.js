@@ -1,3 +1,24 @@
+/**
+* Kevin's comments:  Very cool!  I like the pop art aesthetic especially with the text and the particle system behind it.
+It reminds me of Roy Lichtenstein: https://www.moma.org/collection/works/65792?locale=en
+Think about how you might expand on this sketch one of your final project submissions.  Perhaps you could combine the Pop art
+aesthetic with fly-by graphics in the same way you are doing with "explosion".  When a user clicks on the work, they could flip 
+through different animations and words.  Here's a potential onomotopoetic word list you could work with:
+- Smack
+- Shhh
+- Glug
+- Umph
+- Hiss
+- Ouch
+- Zap
+- Floomp
+- Clang
+- Klonk
+- Crack
+- Kapow
+- Tick
+You could also generate these words algorithmically using RiTa.js
+*/
 //Howard Park
 //Creative Coding - Kevin Siwoff
 //Week 8 Assignment
@@ -24,6 +45,8 @@ var particleArray = [];
 function setup(){
 	createCanvas(500, 500);
 	for(var i = 0; i < 40; i++){
+		//technically correct, but you could combine this into a single line like:
+		//particleArray.push(new Spark());
 		spark = new Spark();
 		particleArray.push(spark);
 	}
@@ -39,3 +62,5 @@ function draw(){
 	textSize(50);
 	text("EXPLOSION!", 100, 270);
 }
+
+//you could add a mousePressed handler to explode the Sparks on each click of the mouse.
