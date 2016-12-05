@@ -3,9 +3,6 @@
 //Week 11 Assignment
 
 var table, rowData, columnData;
-var x = 0;
-var y = 0;
-var textLength = 0;
 
 function preload(){
 	table = loadTable("datasheet.csv")
