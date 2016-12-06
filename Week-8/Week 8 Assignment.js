@@ -47,8 +47,7 @@ function setup(){
 	for(var i = 0; i < 40; i++){
 		//technically correct, but you could combine this into a single line like:
 		//particleArray.push(new Spark());
-		spark = new Spark();
-		particleArray.push(spark);
+		particleArray.push(new Spark());
 	}
 }
 
