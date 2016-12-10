@@ -1,6 +1,6 @@
 //Howard Park
 //Creative Coding - Kevin Siwoff
-//Week 8 Assignment
+//Mindblown Final 1/3
 
 var ono = [];
 var particleArray = [];
