@@ -4,11 +4,10 @@
 //Alfredo Volpi c. 1958 "Composição"
 
 function setup(){
-
+	createCanvas(500,500);
 }
 
 function draw(){
-	createCanvas(500,500);
 	background('#F7E9C3');
 	
 	fill(color('#5E2929'));
